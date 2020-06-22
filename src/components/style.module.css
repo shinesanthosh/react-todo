@@ -1,0 +1,75 @@
+.taskadd {
+	position: absolute;
+	top: 90%;
+	height: 10%;
+	width: 100%;
+	border-radius: 10px;
+}
+.tasklist {
+	color: #fff;
+	background: #333;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	font-size: 20px;
+	width: 90%;
+	height: 80%;
+	text-align: center;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: width 0s 3s;
+	display: block;
+}
+.tasklist:hover {
+	overflow-y: scroll;
+}
+.input {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	font-size: 20px;
+	padding: 12px 24px;
+	text-align: center;
+	background: #333;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: #fff;
+}
+.button {
+	background: #f00;
+	border: none;
+	outline: none;
+	position: absolute;
+	cursor: pointer;
+	left: 90%;
+	top: 10%;
+	height: 55%;
+	width: 40px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.button:disabled {
+	background: #333;
+}
+
+.tasks {
+	background: #222;
+	padding: 12px;
+	width: 90%;
+	cursor: pointer;
+	transition: background 0.8s 0s, color 0.8s 0s;
+}
+
+.tasks:hover {
+	background: #fff;
+	color: #000;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}

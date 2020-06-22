@@ -1,0 +1,10 @@
+.App {
+	text-align: center;
+	background: #000;
+	position: fixed;
+	margin-left: 10%;
+	margin-top: 3%;
+	height: 90%;
+	width: 80%;
+	border-radius: 10px;
+}
